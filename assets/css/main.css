@@ -1,0 +1,99 @@
+body, html {
+  background-color: #3d3d3d;
+  color: #e6e6e6;
+  min-width: 320px;
+  font-family: 'Mate', serif;
+}
+
+a, a:visited {
+  color: #e6e6e6;
+}
+
+a:hover, a:target a:active {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+    border: 0;
+    margin: 5px;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+}
+
+.banner {
+  margin-top: 10px;
+  background-color: #9e3232;
+  min-height: 600px;
+  height: 100%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.menu-bar {
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+
+.rooster {
+  height: 140px;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner-content {
+  min-height: 570px;
+}
+
+.banner-footer p {
+  display: inline-block;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.sm-pad-top {
+  padding-top: 10px;
+}
+
+.sm-pad-bot {
+  padding-bottom: 10px;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.no-mar {
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .banner-img {
+    height: 80px;
+  }
+}
+
+@media (max-width: 390px) {
+  .name {
+    font-size: 2em;
+  }
+}
