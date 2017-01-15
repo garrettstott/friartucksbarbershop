@@ -1,0 +1,260 @@
+/*================================
+CUSTOM
+================================*/
+
+.center {
+  text-align: center;
+}
+
+html, body {
+  background-color: #ededed;
+  color: #171717;
+  font-family: Arial;
+}
+
+.normal-color {
+  color: #171717;
+}
+
+.normal-color:hover {
+  color: #171717;
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.title {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.pull-right {
+  float: right;
+}
+
+/*================================
+LINKS
+================================*/
+
+a {
+  color: #171717;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #171717;
+}
+
+/*================================
+HEADER
+================================*/
+
+.header a {
+  color: #ededed;
+}
+
+.header a:hover {
+  font-weight: normal;
+  color: #fff;
+}
+
+.header h5 {
+  padding: 0 15px;
+  position: relative;
+  top: 170%;
+  transform: translateY(-170%);
+  -webkit-transform: translateY(-170%);
+  -ms-transform: translateY(-170%);
+}
+
+.header * {
+  display: inline-block;
+}
+
+.header-logo {
+  margin-top: 15px;
+  height: 140px;
+}
+
+.header-slc {
+  color: #ededed;
+  position: relative;
+  left: -50%;
+  font-size: 3em;
+}
+
+.header-slc-wrapper {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+
+
+.down-arrow {
+  position: relative;
+  left: -50%;
+  font-size: 3em;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ededed;
+}
+
+/*================================
+HOME
+================================*/
+
+#home {
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../images/scissors.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*================================
+THE SHOP
+================================*/
+
+#the-shop {
+  height: 100vh;
+}
+
+.map {
+  width: 100%;
+}
+
+/*================================
+CLIPPERS
+================================*/
+
+#clippers  {
+  height: 80vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../images/clippers.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  clear: both;
+}
+
+/*================================
+SERVICES
+================================*/
+
+#services {
+  height: 100vh;
+}
+
+.beard-trim {
+  background: url('../images/beard-trim.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.haircut {
+  background: url('../images/haircut.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.kids-cut {
+  background: url('../images/kids.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.shave {
+  background: url('../images/shave.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.cut-and-shave {
+  background: url('../images/cut-and-shave.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.hair-treatment {
+  background: url('../images/hair-treatment.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.beard-trim:before, .haircut:before, .kids-cut:before, .shave:before, .cut-and-shave:before, .hair-treatment:before {
+  content:'';
+  padding-top:100%; /* vertical value as  100% equals width */
+  float:left;
+}
+
+
+/*================================
+INSIDE SHOP
+================================*/
+
+#inside-shop  {
+  height: 35vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../images/inside-shop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  clear: both;
+  position: relative;
+}
+
+/*================================
+FOOTER
+================================*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/*================================
+MOBILE
+================================*/
+
+@media (max-width: 900px) {
+  .shop-section {
+    margin-bottom: 30px;
+  }
+  #the-shop, #services {
+    margin: 0 10px;
+  }
+  .header-slc-wrapper {
+    position: relative;
+    margin-top: 100px;
+  }
+  .header-slc {
+    font-size: 2em;
+  }
+  .header h5 {
+    display: none;
+  }
+  .beard-trim, .haircut, .kid-cut, .shave, .cut-and-shave, .hair-treatment {
+    margin-bottom: 0;
+  }
+}
