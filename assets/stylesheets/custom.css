@@ -98,9 +98,13 @@ HEADER
   font-size: 3em;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #ededed;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ededed;
+}
+
+.down-arrow:hover {
+  border-top: 20px solid #fff;
 }
 
 /*================================
@@ -256,5 +260,10 @@ MOBILE
   }
   .beard-trim, .haircut, .kid-cut, .shave, .cut-and-shave, .hair-treatment {
     margin-bottom: 0;
+  }
+  .down-arrow {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ededed;
   }
 }
