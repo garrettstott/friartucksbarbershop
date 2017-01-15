@@ -10,6 +10,10 @@ html, body {
   background-color: #ededed;
   color: #171717;
   font-family: Arial;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .normal-color {
@@ -32,6 +36,14 @@ strong {
 
 .pull-right {
   float: right;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 /*================================
@@ -91,6 +103,12 @@ HEADER
   bottom: 50%;
 }
 
+.mobile-header-slc {
+  display: none;
+  color: #ededed;
+  text-align: center;
+  padding-top: 100px;
+}
 
 .down-arrow {
   position: relative;
@@ -249,14 +267,14 @@ MOBILE
     margin: 0 10px;
   }
   .header-slc-wrapper {
-    position: relative;
-    margin-top: 100px;
-  }
-  .header-slc {
-    font-size: 2em;
+    display: none;
   }
   .header h5 {
     display: none;
+  }
+  .mobile-header-slc {
+    display: block;
+    padding-top: 100px;
   }
   .beard-trim, .haircut, .kids-cut, .shave, .cut-and-shave, .hair-treatment {
     margin-bottom: 0;
