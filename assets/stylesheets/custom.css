@@ -141,7 +141,6 @@ CLIPPERS
 
 #clippers  {
   background-color: #171717;
-  margin-top: 50px;
   height: 200px;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../images/clippers.jpg');
   background-repeat: no-repeat;
@@ -260,6 +259,7 @@ MOBILE
   }
   .mobile-header-slc {
     display: block;
+    padding: 0 10px; 
     padding-top: 100px;
   }
   .beard-trim, .haircut, .kids-cut, .shave, .cut-and-shave, .hair-treatment {
