@@ -132,7 +132,7 @@ THE SHOP
 }
 
 .map {
-  width: 100%;
+  width: 50%;
 }
 
 /*================================
@@ -259,7 +259,7 @@ MOBILE
   }
   .mobile-header-slc {
     display: block;
-    padding: 0 10px; 
+    padding: 0 10px;
     padding-top: 100px;
   }
   .beard-trim, .haircut, .kids-cut, .shave, .cut-and-shave, .hair-treatment {
